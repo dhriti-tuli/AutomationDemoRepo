@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="1246" started-at="2019-11-15T04:51:54Z" finished-at="2019-11-15T04:51:55Z">
+    <groups>
+    </groups>
+    <test name="setup" duration-ms="120" started-at="2019-11-15T04:51:54Z" finished-at="2019-11-15T04:51:54Z">
+    </test> <!-- setup -->
+    <test name="BestBuy" duration-ms="14" started-at="2019-11-15T04:51:55Z" finished-at="2019-11-15T04:51:55Z">
+      <class name="org.selenium.demo.test.SeleniumTest.SuiteSetup">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.selenium.demo.test.SeleniumTest.SuiteSetup@68c9d179]" name="beforeSuite" is-config="true" duration-ms="128" started-at="2019-11-15T10:21:54Z" finished-at="2019-11-15T10:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.selenium.demo.test.SeleniumTest.SuiteSetup@68c9d179]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-11-15T10:21:56Z" finished-at="2019-11-15T10:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.selenium.demo.test.SeleniumTest.SuiteSetup -->
+    </test> <!-- BestBuy -->
+  </suite> <!-- Test Suite -->
+</testng-results>
