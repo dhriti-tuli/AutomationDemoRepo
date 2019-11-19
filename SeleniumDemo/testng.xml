@@ -1,16 +1,20 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite thread-count="1" verbose="1" name="Test Suite" annotations="JDK" parallel="tests">
-         
-  <test name="setup">
-	 <classes>
-	   <class name="org.selenium.demo.test.SeleniumTest.SuiteSetup"/>
-	 </classes>
-   </test>
-   
-  <test name="BestBuy">
-     <classes>
-       <class name="org.selenium.demo.test.SeleniumTest.BestBuyTest"/>
-     </classes>
-   </test>
+<suite name="Test Suite" parallel="none">
+
+	<listeners>
+		<listener class-name="org.selenium.demo.utils.TestListener" />
+	</listeners>
+	<!-- <test name="setup"> <classes> <class name="org.selenium.demo.test.SeleniumTest.SuiteSetup" 
+		/> </classes> </test> -->
+
+	<test name="BestBuy">
+		<classes>
+			<class name="org.selenium.demo.test.SeleniumTest.BestBuyTest" />
+			<methods>
+				<include name="TC001_BestBuy_Country_SearchData" />
+			</methods>
+		</classes>
+	</test>
 </suite>
